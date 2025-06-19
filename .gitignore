@@ -56,7 +56,7 @@ Mkfile.old
 dkms.conf
 
 .output/
-
+.exemplos/
 .vscode/
 
 # End of https://www.toptal.com/developers/gitignore/api/c

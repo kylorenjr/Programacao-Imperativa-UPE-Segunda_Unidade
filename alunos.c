@@ -58,13 +58,13 @@ void cadastrar_aluno()
     fgets(alunos[total_alunos].nome, MAX_STRING, stdin);
     alunos[total_alunos].nome[strcspn(alunos[total_alunos].nome, "\n")] = 0; // Remover \n
 
-    printf("RG: ");
+    printf("RG (SEM ESPAÇOS): ");
     scanf("%s", alunos[total_alunos].rg);
 
-    printf("CPF: ");
+    printf("CPF (SEM ESPAÇOS): ");
     scanf("%s", alunos[total_alunos].cpf);
 
-    printf("Data de nascimento (DD/MM/AAAA): ");
+    printf("Data de nascimento (DD/MM/AAAA) (SEM ESPAÇOS): ");
     scanf("%s", alunos[total_alunos].data_nascimento);
 
     printf("Escola: ");
@@ -72,10 +72,10 @@ void cadastrar_aluno()
     fgets(alunos[total_alunos].escola, MAX_STRING, stdin);
     alunos[total_alunos].escola[strcspn(alunos[total_alunos].escola, "\n")] = 0;
 
-    printf("Turma: ");
+    printf("Turma (SEM ESPAÇOS): ");
     scanf("%s", alunos[total_alunos].turma);
 
-    printf("Telefone: ");
+    printf("Telefone (SEM ESPAÇOS): ");
     scanf("%s", alunos[total_alunos].telefone);
 
     printf("Nome do pai: ");
