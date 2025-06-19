@@ -1,12 +1,10 @@
-
-#ifndef ALUNOS_H
-#define ALUNOS_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #include "dados.h"   
 #include "utils.h"   
+#include "alunos.h"
 
 void menu_controle_pagamento()
 {
@@ -349,4 +347,3 @@ void listar_seguros()
     pausar();
 }
 
-#endif
