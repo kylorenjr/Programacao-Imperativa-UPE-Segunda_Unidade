@@ -35,6 +35,7 @@ void menu_principal() {
         printf("0. Sair\n");
         printf("\nEscolha uma opção: ");
         scanf("%d", &opcao);
+        //commit de teste
         
         switch (opcao) {
             case 1:
